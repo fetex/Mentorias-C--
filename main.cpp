@@ -4,6 +4,8 @@
 #include <iostream>
 
 int main(){ 
+    //comentario lista 2
+    bool operator==(const List&);
     List lista;
     //vector<Element>vec = {1,23,3,4,35,46,5,7,45,2,43,6,55,32,423,43,4,6,5,3,2,1,2,23,3,2,5,5,6,78,87,63,22};//33
     //List lista(vec);

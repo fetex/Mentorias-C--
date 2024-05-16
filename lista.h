@@ -29,7 +29,8 @@ class List{ //comentario lista 1
     void push_front(Element);
     //-----------------
     
-    void append(List);
+    void append(List);//comentario lista 3
+    bool operator==(const List&);
     void resizeBlock(int);
     vector<int> getVector();
     int getMax();
