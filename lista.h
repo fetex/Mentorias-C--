@@ -6,7 +6,7 @@
 
 using namespace std;
 
-class List{
+class List{ //comentario lista 1
     private:
     int blockSize, listSize;
     Node* act;
@@ -36,7 +36,7 @@ class List{
     bool contains();        
     static List addVectorOfLists(vector<List>&);
     bool operator+(List&);
-    bool operator<(List&);
+    bool operator<(List&); //comentario lista 2
     bool operator==(const List&);
     Element operator[](int);
 };

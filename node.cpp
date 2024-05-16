@@ -1,7 +1,7 @@
 
 #include "node.h"
 
-Node::Node() {
+Node::Node() { //Comentario 1 
     next = NULL;
     prev = NULL;
     count = 0;
@@ -10,7 +10,7 @@ Node::Node() {
     vec = vector<Element>(20);
 }
 
-Node::Node(int detSize, Node* n, Node* p){
+Node::Node(int detSize, Node* n, Node* p){ //comentario 2 
     next = n;
     prev = p;
     count = 0;
